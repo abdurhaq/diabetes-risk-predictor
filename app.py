@@ -92,10 +92,6 @@ if st.button("🔍 Predict", use_container_width=True):
     st.divider()
     st.subheader("🔍 Why this prediction? (SHAP)")
 
-    # ── SHAP Explanation ──────────────────────────────────────
-    st.divider()
-    st.subheader("🔍 Why this prediction? (SHAP)")
-
     explainer   = shap.TreeExplainer(model)
     shap_values = explainer.shap_values(input_scaled)
 

@@ -38,4 +38,4 @@ streamlit run app.py
 
 ## 📸 Screenshot
 
-(Add a screenshot of your app here)
+(https://github.com/abdurhaq/diabetes-risk-predictor/blob/main/Screenshot%202026-04-18%20131818.png)
