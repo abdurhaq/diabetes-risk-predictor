@@ -18,10 +18,12 @@ scaler  = joblib.load('scaler.pkl')
 feature_columns = joblib.load('feature_columns.pkl')
 
 # ── Header ────────────────────────────────────────────────────
-st.image("icon.png", width=150)
-st.title("Diabetes Risk Predictor")
-st.markdown("ML-Powered Early Detection System")
-st.markdown("Enter patient details below to predict diabetes risk using a trained **Random Forest model** (ROC-AUC: 0.83)")
+col_icon, col_title = st.columns([1, 5])
+with col_icon:
+    st.image("icon.png", width=150)
+with col_title:
+    st.markdown("# Diabetes Risk Predictor")
+    st.markdown("#### ML-Powered Early Detection System")
 st.divider()
 
 # ── Sidebar: About ────────────────────────────────────────────
