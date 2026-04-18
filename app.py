@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ── Page Config ───────────────────────────────────────────────
 st.set_page_config(
     page_title="Diabetes Risk Predictor",
-    page_icon="🩺",
+    page_icon="icon.png",
     layout="centered"
 )
 
