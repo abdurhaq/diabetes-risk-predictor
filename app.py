@@ -18,7 +18,7 @@ scaler  = joblib.load('scaler.pkl')
 feature_columns = joblib.load('feature_columns.pkl')
 
 # ── Header ────────────────────────────────────────────────────
-col_icon, col_title = st.columns([0, 5])
+col_icon, col_title = st.columns([2, 5])
 with col_icon:
     st.image("icon.png", width=150)
 with col_title:
