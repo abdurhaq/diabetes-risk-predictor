@@ -20,7 +20,9 @@ feature_columns = joblib.load('feature_columns.pkl')
 # ── Header ────────────────────────────────────────────────────
 col_icon, col_title = st.columns([2, 5])
 with col_icon:
+    st.markdown('<div style="margin-left: -40px;">', unsafe_allow_html=True)
     st.image("icon.png", width=150)
+    st.markdown('</div>', unsafe_allow_html=True)
 with col_title:
     st.markdown("# Diabetes Risk Predictor")
     st.markdown("#### ML-Powered Early Detection System")
