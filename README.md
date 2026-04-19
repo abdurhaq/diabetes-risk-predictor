@@ -4,6 +4,9 @@ An end-to-end Machine Learning web app that predicts diabetes risk based on pati
 
 ## Demo🔗 **[Live App](https://abdurhaq-diabetes-risk-predictor-app-8rk23g.streamlit.app/)**
 
+## 📸 Screenshot
+[App Screenshot](https://github.com/abdurhaq/diabetes-risk-predictor/blob/main/Screenshot%202026-04-18%20131818.png)
+
 ## 🔍 Overview
 
 - Trained and compared 4 ML models: Logistic Regression, SVM, Random Forest, XGBoost
@@ -37,7 +40,3 @@ streamlit run app.py
 ## 📁 Dataset
 
 [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) — 768 patients, 8 features.
-
-## 📸 Screenshot
-
-(https://github.com/abdurhaq/diabetes-risk-predictor/blob/main/Screenshot%202026-04-18%20131818.png)
