@@ -4,7 +4,6 @@ An end-to-end Machine Learning web app that predicts diabetes risk based on pati
 
 ## Demo🔗 **[Live App](https://abdurhaq-diabetes-risk-predictor-app-8rk23g.streamlit.app/)**
 
-## 📸 Screenshot
 [App Screenshot](https://github.com/abdurhaq/diabetes-risk-predictor/blob/main/Screenshot%202026-04-18%20131818.png)
 
 ## 🔍 Overview
