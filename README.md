@@ -2,6 +2,7 @@
 
 An end-to-end Machine Learning web app that predicts diabetes risk based on patient health parameters.
 
+## Demo **[https://abdurhaq-diabetes-risk-predictor-app-8rk23g.streamlit.app/]**
 ## 🔍 Overview
 
 - Trained and compared 4 ML models: Logistic Regression, SVM, Random Forest, XGBoost
